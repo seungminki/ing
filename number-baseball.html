@@ -54,7 +54,7 @@
                 return;
             }
             if (tries.length >= 9) {
-                const message = document.createTextNode(`패배! 정답은 ${answer.join('')}`);
+                const message = document.createTextNode(`패배! 정답은 ${answer.join('')}`); // (` : 그레이브)("안녕하세요.\n제 이름은 " + name + "입니다. 제 나이는 " + age + "살 입니다.")
                 $logs.appendChild(message);
                 return;
             }
